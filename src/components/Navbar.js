@@ -16,11 +16,14 @@ const Navbar = () => {
   const [walletAddress, setWallet] = useContext(MinterContext);
   const [walletStatus, setWalletStatus] = useState("");
 
-  useEffect(async () => {
-    const {address, status} = await getCurrentWalletConnected();
-    setWallet(address)
-    setWalletStatus(status); 
-    addWalletListener();
+  useEffect(() => {
+    async function getConnectedWallet() {
+      const {address, status} = await getCurrentWalletConnected();
+      setWallet(address)
+      setWalletStatus(status); 
+      addWalletListener();
+    }
+    getConnectedWallet();
   }, []);
 
   const connectWalletPressed = async () => {
