@@ -1,2 +1,2 @@
 # Sh-ttyPaint
-silly nft project
+a silly nft project

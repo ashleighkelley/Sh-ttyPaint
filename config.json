@@ -1,0 +1,48 @@
+{
+  "metaData": {
+    "name": "NAME#ID",
+    "description": "a shitty nft",
+    "splitFiles": true
+  },
+  "useCustomNames": 0,
+  "deleteDuplicates": true,
+  "generateMetadata": true,
+  "basePath": "C:\\Users\\Taylor\\Documents\\Development\\shittypaint\\src/images/",
+  "outputPath": "C:\\Users\\Taylor\\Documents\\Development\\shittypaint\\src\\output/",
+  "imageUrl": "URL/ID/",
+  "order": [
+    1,
+    2,
+    4,
+    3,
+    5,
+    0
+  ],
+  "weights": {
+    "arms_down.png": "10",
+    "arms_mix.png": "5",
+    "arms_up.png": "10",
+    "bg_blue.png": "7",
+    "bg_green.png": "4",
+    "bg_orange.png": "4",
+    "bg_pink.png": "1",
+    "bg_purple.png": "3",
+    "bg_yellow.png": "6",
+    "body_square.png": "10",
+    "body_u.png": "15",
+    "eyes_happy.png": "10",
+    "eyes_oO.png": "7",
+    "eyes_shut.png": "5",
+    "eyes_wide.png": "3",
+    "head_circle.png": "12",
+    "head_square.png": "10",
+    "head_triangle.png": "3",
+    "mouth_D.png": "1",
+    "mouth_flat.png": "1",
+    "mouth_frown.png": "1",
+    "mouth_O.png": "4",
+    "mouth_smile.png": "5",
+    "mouth_tiny.png": "10",
+    "mouth_wave.png": "3"
+  }
+}
